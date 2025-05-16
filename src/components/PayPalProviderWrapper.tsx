@@ -10,7 +10,8 @@ export default function PayPalProviderWrapper({
   return (
     <PayPalScriptProvider
       options={{
-        clientId: process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID || "",
+        clientId:
+          "AbtSt71jXUTzBs4JxiUzs80U7OqNURaGjzJ7BURqJPoJ3F-GZpwLDkb7Ww2JVu52YdpDwVpTxiattig4",
         currency: "USD",
       }}
     >
